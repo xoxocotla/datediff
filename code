@@ -1,0 +1,7 @@
+Sub DiferenciaFechas()
+   ‘Regresará los años de diferencia
+    Range(“A2”).Value = DateDiff(“yyyy”, Range(“A1”).Value, Range(“B1”).Value)
+    
+   ‘Regresará las semanas de diferencia
+    Range(“A3”).Value = DateDiff(“ww”, Range(“A1”).Value, Range(“B1”).Value)
+End Sub
